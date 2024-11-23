@@ -1,0 +1,457 @@
+--
+-- PostgreSQL database cluster dump
+--
+
+-- Started on 2024-11-22 22:21:35
+
+SET default_transaction_read_only = off;
+
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+
+--
+-- Roles
+--
+
+CREATE ROLE postgres;
+ALTER ROLE postgres WITH SUPERUSER INHERIT CREATEROLE CREATEDB LOGIN REPLICATION BYPASSRLS;
+
+--
+-- User Configurations
+--
+
+
+
+
+
+
+
+
+--
+-- Databases
+--
+
+--
+-- Database "template1" dump
+--
+
+\connect template1
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.1
+-- Dumped by pg_dump version 17.1
+
+-- Started on 2024-11-22 22:21:35
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+-- Completed on 2024-11-22 22:21:36
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "LocadoraBDP2" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.1
+-- Dumped by pg_dump version 17.1
+
+-- Started on 2024-11-22 22:21:36
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 4786 (class 1262 OID 16387)
+-- Name: LocadoraBDP2; Type: DATABASE; Schema: -; Owner: postgres
+--
+
+CREATE DATABASE "LocadoraBDP2" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'Portuguese_Brazil.1252';
+
+
+ALTER DATABASE "LocadoraBDP2" OWNER TO postgres;
+
+\connect "LocadoraBDP2"
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+-- Completed on 2024-11-22 22:21:36
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "ProjBDP2" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.1
+-- Dumped by pg_dump version 17.1
+
+-- Started on 2024-11-22 22:21:36
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 4786 (class 1262 OID 16455)
+-- Name: ProjBDP2; Type: DATABASE; Schema: -; Owner: postgres
+--
+
+CREATE DATABASE "ProjBDP2" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'Portuguese_Brazil.1252';
+
+
+ALTER DATABASE "ProjBDP2" OWNER TO postgres;
+
+\connect "ProjBDP2"
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+-- Completed on 2024-11-22 22:21:37
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "ProjetoBDP2" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.1
+-- Dumped by pg_dump version 17.1
+
+-- Started on 2024-11-22 22:21:37
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 4786 (class 1262 OID 16454)
+-- Name: ProjetoBDP2; Type: DATABASE; Schema: -; Owner: postgres
+--
+
+CREATE DATABASE "ProjetoBDP2" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'Portuguese_Brazil.1252';
+
+
+ALTER DATABASE "ProjetoBDP2" OWNER TO postgres;
+
+\connect "ProjetoBDP2"
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+-- Completed on 2024-11-22 22:21:37
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "ProjetoBD_P1" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.1
+-- Dumped by pg_dump version 17.1
+
+-- Started on 2024-11-22 22:21:37
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 4786 (class 1262 OID 16408)
+-- Name: ProjetoBD_P1; Type: DATABASE; Schema: -; Owner: postgres
+--
+
+CREATE DATABASE "ProjetoBD_P1" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'Portuguese_Brazil.1252';
+
+
+ALTER DATABASE "ProjetoBD_P1" OWNER TO postgres;
+
+\connect "ProjetoBD_P1"
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+-- Completed on 2024-11-22 22:21:37
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "ProjetoBD_P2" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.1
+-- Dumped by pg_dump version 17.1
+
+-- Started on 2024-11-22 22:21:38
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 4786 (class 1262 OID 16452)
+-- Name: ProjetoBD_P2; Type: DATABASE; Schema: -; Owner: postgres
+--
+
+CREATE DATABASE "ProjetoBD_P2" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'Portuguese_Brazil.1252';
+
+
+ALTER DATABASE "ProjetoBD_P2" OWNER TO postgres;
+
+\connect "ProjetoBD_P2"
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+-- Completed on 2024-11-22 22:21:38
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "projetobd_p1" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.1
+-- Dumped by pg_dump version 17.1
+
+-- Started on 2024-11-22 22:21:38
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 4786 (class 1262 OID 16451)
+-- Name: projetobd_p1; Type: DATABASE; Schema: -; Owner: postgres
+--
+
+CREATE DATABASE projetobd_p1 WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'Portuguese_Brazil.1252';
+
+
+ALTER DATABASE projetobd_p1 OWNER TO postgres;
+
+\connect projetobd_p1
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+-- Completed on 2024-11-22 22:21:38
+
+--
+-- PostgreSQL database dump complete
+--
+
+--
+-- Database "projetobd_p2" dump
+--
+
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.1
+-- Dumped by pg_dump version 17.1
+
+-- Started on 2024-11-22 22:21:38
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 4786 (class 1262 OID 16453)
+-- Name: projetobd_p2; Type: DATABASE; Schema: -; Owner: postgres
+--
+
+CREATE DATABASE projetobd_p2 WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'Portuguese_Brazil.1252';
+
+
+ALTER DATABASE projetobd_p2 OWNER TO postgres;
+
+\connect projetobd_p2
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+-- Completed on 2024-11-22 22:21:39
+
+--
+-- PostgreSQL database dump complete
+--
+
+-- Completed on 2024-11-22 22:21:39
+
+--
+-- PostgreSQL database cluster dump complete
+--
+
